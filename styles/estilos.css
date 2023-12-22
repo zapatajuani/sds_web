@@ -1,0 +1,83 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px #68686860;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.header_container {
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+}
+
+.nav_bar_elements > li {
+    font-style: italic;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.main_page_container {
+    width: 960px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.posteo {
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    height: auto;
+    width: 300px;
+}
+
+.posteo_imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px #68686860;
+}
+
+.iconos_container {
+    height: 30px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 1px 1px 1px 1px;
+}
+
+.mg_icon,
+.pin_icon {
+    width: 30px;
+    height: 30px;
+}
+.mg_icon {
+    position: left;
+}
+.pin_icon {
+    position: right;
+}
+
+.posteo_texto {
+    padding: 0px 0px 0px 0px;
+    margin: 1px 1px 1px 1px;
+}
+
+.footer_container {
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+}
+
+footer {
+    position: bottom;
+}
