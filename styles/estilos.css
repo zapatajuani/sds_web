@@ -8,76 +8,72 @@ body {
     background-color: #EBEBEB;
 }
 
-.header_container {
-    background-color: #ffffff;
+.header {
+    background-color: #204E6B;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    margin: 0px 0px 5px 0px;
-    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
 }
 
-.nav_bar_elements > li {
-    font-style: italic;
+.elements_container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Contenedor padre de cada elemento del encabezado */
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.element:nth-child(4) {
+    flex-grow: 1;
+    justify-content: right;
+}
+
+.enlace {
     font-size: 24px;
-    display: inline-block;
-    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.page_logo {
+    width: 124px;
+    height: 80px;
 }
 
 .main_page_container {
-    width: 960px;
-    margin: 10px auto;
     display: flex;
     flex-direction: row;
+    gap: 15px;
     flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
 }
 
-.posteo {
-    background-color: #ffffff;
+.main_page_container > div {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    border-radius: 8px;
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
-    height: auto;
-    width: 300px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.posteo_imagen {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 2px 2px #68686860;
-}
-
-.iconos_container {
-    height: 30px;
-    width: 100%;
-    padding: 0px 0px 0px 0px;
-    margin: 1px 1px 1px 1px;
-}
-
-.mg_icon,
-.pin_icon {
-    width: 30px;
-    height: 30px;
-}
-.mg_icon {
-    position: left;
-}
-.pin_icon {
-    position: right;
-}
-
-.posteo_texto {
-    padding: 0px 0px 0px 0px;
-    margin: 1px 1px 1px 1px;
-}
-
-.footer_container {
-    background-color: #ffffff;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    margin: 5px 0px 0px 0px;
-    padding: 5px;
-}
-
-footer {
-    position: bottom;
+.material-symbols-outlined {
+    font-size: 50px;
+    color: lightblue;
+    -webkit-text-stroke: black;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
 }
