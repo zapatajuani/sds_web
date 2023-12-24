@@ -1,6 +1,6 @@
-let graficoHumedad = document.getElementById("#grafico_humedad_1");
+let graficoHumedad = document.getElementById("graficoHumedad1");
 
-var chart = new Chart(graficoHumedad, {
+new Chart(graficoHumedad, {
     type: "line",
     data: {
         labels:["12p.m", "13p.m", "14p.m", "15p.m", "16p.m", "17p.m", "18p.m"],
