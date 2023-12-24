@@ -10,7 +10,9 @@
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
+    <!-- Cargar chart.js -->
     <script src="main.js"></script>
+    <script s></script>
     <link rel="stylesheet" type="text/css" href="styles/estilos.css">
 </head>
 <body>
@@ -37,7 +39,7 @@
     <div class="main_page_container">
         <div class="humedad">
             <p>Sensor Humedad 1</p>
-            <span class="material-symbols-outlined">
+            <span id="sensor_humedad_1" class="material-symbols-outlined">
                 humidity_mid
             </span>
             <p>80%</p>
@@ -45,19 +47,23 @@
 
         <div class="humedad">
             <p>Sensor Temperatura 1</p>
-            <span class="material-symbols-outlined">
+            <span id="sensor_temperatura_1" class="material-symbols-outlined">
                 device_thermostat
             </span>
-            <p>80%</p>
+            <p>24.5 °C</p>
         </div>
 
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
+        <div class="bateria">
+            <p>Bateria Dispositivo 1</p>
+            <span id="bateria_dispositivo_1" class="material-symbols-outlined">
+                battery_3_bar
+            </span>
+            <p>35%</p>
+        </div>
+
+        <div class="grafico_humedad">
+            <canvas id="grafico_humedad_1"></canvas>
+        </div>
     </div>
 </body>
 </html>

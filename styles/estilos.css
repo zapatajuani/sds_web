@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #EBEBEB;
+    background-color: #E6ECFA;
 }
 
 .header {
@@ -59,21 +59,45 @@ body {
 .main_page_container > div {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     border-radius: 5px;
-    width: 200px;
-    height: 200px;
+    padding: 2px 2px 2px 2px;
+    min-width: 200px;
+    min-height: 200px;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.main_page_container > div:hover {
+    border-style: solid;
+    border-width: 0.1px 0.1px 0.1px 0.1px;
+    border-color: #204E6B;
+}
+
 .material-symbols-outlined {
-    font-size: 50px;
-    color: lightblue;
-    -webkit-text-stroke: black;
+    font-size: 80px;
     font-variation-settings:
     'FILL' 0,
-    'wght' 300,
+    'wght' 50,
     'GRAD' 0,
     'opsz' 24
+}
+
+#sensor_humedad_1 {
+    color: lightblue;
+}
+
+#sensor_temperatura_1 {
+    color: orange;
+}
+
+#bateria_dispositivo_1 {
+    color: rgb(192, 192, 104);
+}
+
+#grafico_humedad_1 {
+    width: 400px;
+    height: 400px;
 }
