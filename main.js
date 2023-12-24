@@ -1,4 +1,4 @@
-let graficoHumedad = document.getElementById("#grafico_humedad_1")
+let graficoHumedad = document.getElementById("#grafico_humedad_1");
 
 var chart = new Chart(graficoHumedad, {
     type: "line",
@@ -11,4 +11,4 @@ var chart = new Chart(graficoHumedad, {
             }
         ]
     }
-})
+});
