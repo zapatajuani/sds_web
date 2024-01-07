@@ -35,6 +35,7 @@
     </header>
 
     <div class="main_page_container">
+
         <div class="humedad">
             <p>Sensor Humedad 1</p>
             <span id="sensor_humedad_1" class="material-symbols-outlined">
@@ -43,7 +44,7 @@
             <p>80%</p>
         </div>
 
-        <div class="humedad">
+        <div class="temperatura">
             <p>Sensor Temperatura 1</p>
             <span id="sensor_temperatura_1" class="material-symbols-outlined">
                 device_thermostat
@@ -59,9 +60,12 @@
             <p>35%</p>
         </div>
 
-        <div class="grafico_humedad">
-            <canvas id="graficoHumedad1" width="400" height="400"></canvas>
+        <div class="bateria">
+            <p id="texto_rango"></p>
+            <label for="input">Rango</label>
+            <input id="rango" type="range" min="18" max="35">
         </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
